@@ -4,9 +4,10 @@ botaoEntrar.addEventListener ('click' ,
 function alertar () {
   let eMail = document.getElementById('form1Email').value;
   let senha = document.getElementById('form1Senha').value;
-    if(eMail === null || senha === null){
+  console.log(eMail.lenght)
+    if(eMail.lenght < 1 ){
         alert('Email ou senha inválidos');
-    } else if (eMail !== null && senha !== null){
+    } else if (eMail.lenght !== null && senha.lenght !== null){
         alert('Olá, Tryber!');
     }
 })
