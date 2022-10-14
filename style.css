@@ -25,3 +25,18 @@ main{
 #trybewarts-forms-logo{
     height: 600px;
 }
+#input-name{
+    width: 50%;
+    /* align-self: flex-start; */
+}
+#input-lastname{
+    width: 50%;
+    align-self: flex-start;
+    
+}
+#nomeSob{
+    display: flex;
+}
+#mailEscola{
+    display: flex;
+}
