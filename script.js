@@ -1,7 +1,7 @@
 let botaoEntrar = document.getElementById('botaoEntrar')
 botaoEntrar.addEventListener ('click' ,
 
-function alert () {
+function alertar () {
   let eMail = document.getElementById('form1Email').value;
   let senha = document.getElementById('form1Senha').value;
     if(eMail === null || senha === null){
@@ -9,5 +9,4 @@ function alert () {
     } else if (eMail !== null && senha !== null){
         alert('Olá, Tryber!');
     }
-    console.log('teste')
 })
