@@ -1,7 +1,7 @@
 *{
     margin: 0;
 }
-#header{
+.header{
     height: 50px;
     background-color: rgb(50, 167, 145);
     display: flex;
@@ -13,4 +13,15 @@
 }
 .trybewarts-header-logo{
     max-width: 50px
+}
+main{
+    display: flex;
+}
+#evaluation-form{
+    display: flex;
+    width: 675px;
+    flex-direction: column;
+}
+#trybewarts-forms-logo{
+    height: 600px;
 }
