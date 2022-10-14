@@ -34,7 +34,6 @@ main {
 
 #input-name {
   width: 50%;
-  /* align-self: flex-start; */
 }
 
 #input-lastname {
@@ -46,6 +45,6 @@ main {
   display: flex;
 }
 
-#mailEscola {   
+#mailEscola {
   display: flex;
 }
