@@ -17,8 +17,8 @@ botaoEntrar.addEventListener ('click' ,
 function validamail() {
     let eMail = document.getElementById('form1Email').value;
     let senha = document.getElementById('form1Senha').value;
-    if (eMail == "" || senha == "") {
-      alert("Email ou senha inválidos");
-    }else {alert('Olá, Tryber!')}
+    if (eMail == "tryber@teste.com" || senha == "123456") {
+        alert('Olá, Tryber!');
+    }else {alert('Email ou senha inválidos.')}
   }
 )
