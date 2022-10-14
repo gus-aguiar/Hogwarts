@@ -1,42 +1,41 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.header{
-    height: 50px;
-    background-color: rgb(50, 167, 145);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  height: 50px;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.trybewarts-login{
-    display: flex;
+.trybewarts-login {
+  display: flex;
 }
-.trybewarts-header-logo{
-    max-width: 50px
+.trybewarts-header-logo {
+  max-width: 50px;
 }
-main{
-    display: flex;
+main {
+  display: flex;
 }
-#evaluation-form{
-    display: flex;
-    width: 675px;
-    flex-direction: column;
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
-#trybewarts-forms-logo{
-    height: 500px;
+#trybewarts-forms-logo {
+  height: 500px;
 }
-#input-name{
-    width: 50%;
-    /* align-self: flex-start; */
+#input-name {
+  width: 50%;
+  /* align-self: flex-start; */
 }
-#input-lastname{
-    width: 50%;
-    align-self: flex-start;
-    
+#input-lastname {
+  width: 50%;
+  align-self: flex-start;
 }
-#nomeSob{
-    display: flex;
+#nomeSob {
+  display: flex;
 }
-#mailEscola{
-    display: flex;
+#mailEscola {
+  display: flex;
 }
