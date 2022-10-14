@@ -22,3 +22,16 @@ function validamail() {
     }else {alert('Email ou senha inválidos.')}
   }
 )
+
+
+let enviar = document.getElementById("submit-btn");
+let checkB = document.getElementById("agreement");
+enviar.disabled = true;
+checkB.addEventListener("change", xablau);
+function xablau() {
+  if (document.getElementById("agreement").check === false) {
+    enviar.disabled = true; 
+  } else {
+    enviar.disabled = false;
+  }
+}
